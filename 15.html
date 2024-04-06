@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr); /* 2개의 열 */
+                gap: 10px; /* 각 셀 사이의 간격 */
+            }
+            .grid-item {
+                width: 100%; /* 각 이미지의 너비 */
+                height: auto; /* 이미지의 높이를 자동으로 조정 */
+            }
+        </style>
+    </head>
+    <body>
+        <img src="15.png" width="50%">
+        <pre>
+            <code>
+                // index.html
+                
+                &lt;!doctype html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;WEB&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;&lt;a href="index.html" title="homepage"&gt;WEB&lt;/a&gt;&lt;/h1&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt;&lt;a href="1.html" title="html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="2.html" title="css"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="3.html" title="javascript"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                    &lt;h2&gt;웹사이트란 무엇인가&lt;/h2&gt;
+                    &lt;img src="web.jpg"&gt;
+                    &lt;p&gt;
+                        웹사이트(영어: website[1], 문화어: 웨브싸이트)는 인터넷 프로토콜 기반의 네트워크에서 도메인 이름이나 IP 주소, 루트 경로만으로 이루어진 일반 URL을 통하여 보이는 웹 페이지들의 의미 있는 묶음이다.&lt;br&gt;
+                        대한민국에서 흔히 말하는 홈페이지는 엄밀히 말해 웹사이트를 지칭한다.&lt;br&gt; 
+                        최초의 웹사이트는 팀 버너스리가 1990년에 CERN에서 만든 info.cern.ch이다. (지금도 CERN사이트 안에 존재함.)
+                    &lt;/p&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+
+        <pre>
+            <code>
+                // 1.html
+
+                &lt;!doctype html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;HTML이란 무엇인가&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;&lt;a href="index.html" title="homepage"&gt;WEB&lt;/a&gt;&lt;/h1&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt;&lt;a href="1.html" title="html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="2.html" title="css"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="3.html" title="javascript"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                    &lt;h2&gt;HTML이란 무엇인가&lt;/h2&gt;
+                    &lt;img src="html.jpg"&gt;
+                    &lt;p&gt;
+                        하이퍼 텍스트 마크업 언어(영어: Hyper Text Markup Language, HTML, 문화어: 초본문표식달기언어, 하이퍼본문표식달기언어)는 웹 페이지 표시를 위해 개발된 지배적인 마크업 언어다.&lt;br&gt;
+                        또한, HTML은 제목, 단락, 목록 등과 같은 본문을 위한 구조적 의미를 나타내는 것뿐만 아니라 링크, 인용과 그 밖의 항목으로 구조적 문서를 만들 수 있는 방법을 제공한다. 
+                    &lt;/p&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        
+        <pre>
+            <code>
+                // 2.html
+
+                &lt;!doctype html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;CSS란 무엇인가&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;&lt;a href="index.html" title="homepage"&gt;WEB&lt;/a&gt;&lt;/h1&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt;&lt;a href="1.html" title="html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="2.html" title="css"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="3.html" title="javascript"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                    &lt;h2&gt;CSS란 무엇인가&lt;/h2&gt;
+                    &lt;img src="css.jpg"&gt;
+                    &lt;p&gt;
+                        종속형 시트 또는 캐스케이딩 스타일 시트(영어: Cascading Style Sheet)는 마크업 언어가 실제 표시되는 방법을 기술하는 스타일 언어(영어: Style sheet language 스타일 시트 랭귀지[*])로[1], HTML과 XHTML에 주로 쓰이며, XML에서도 사용할 수 있다.&lt;br&gt; 
+                        W3C의 표준이고, 레이아웃과 스타일을 정의할 때의 자유도가 높다.&lt;br&gt; 
+                        기본 파일명[2]은 style.css이다.
+                    &lt;/p&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        
+        <pre>
+            <code>
+                // 3.html
+
+                &lt;!doctype html&gt;
+                &lt;head&gt;
+                    &lt;title&gt;JavaScript란 무엇인가&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                    &lt;h1&gt;&lt;a href="index.html" title="homepage"&gt;WEB&lt;/a&gt;&lt;/h1&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt;&lt;a href="1.html" title="html"&gt;HTML&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="2.html" title="css"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+                        &lt;li&gt;&lt;a href="3.html" title="javascript"&gt;JavaScript&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                    &lt;h2&gt;JavaScript란 무엇인가&lt;/h2&gt;
+                    &lt;img src="javascript.jpg"&gt;
+                    &lt;p&gt;
+                        자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다.&lt;br&gt;
+                        이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다.&lt;br&gt; 
+                        또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다. &lt;br&gt;
+                    &lt;/p&gt;
+                &lt;/body&gt;
+            </code>
+        </pre>
+        
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="web.jpg" width="50%">
+            </div>
+            <div class="grid-item">
+                <img src="html.jpg" width="50%">
+            </div>
+            <div class="grid-item">
+                <img src="javascript.jpg" width="50%">
+            </div>
+            <div class="grid-item">
+                <img src="css.jpg" width="50%">
+            </div>
+        </div>
+        <h1>생활코딩 WEB 1</h1>
+        <h3><a href="2.html">2. 프로젝트의 동기</a></h3>
+        <h3><a href="3.html">3. 기획</a></h3>
+        <h3><a href="4.html">4. 코딩과 HTML</a></h3>
+        <h3><a href="5.html">5. HTML 코딩과 실습환경 준비</a></h3>
+        <h3><a href="6.html">6. 기본 문법 : 태그 - &lt;strong&gt;&lt;/strong&gt;, &lt;u&gt;&lt;/u&gt;</a></h3>
+        <h3><a href="7.html">7. 혁명적인 변화 - &lt;h1&gt;&lt;/h1&gt; (h1~h6)</a></h3>
+        <h3><a href="8.html">8. 통계에 기반한 학습</a></h3>
+        <h3><a href="9.html">9. 줄바꿈 - &lt;br&gt;, &lt;p&gt;&lt;/p&gt;</a></h3>
+        <h3><a href="10.html">10. html이 중요한 이유 - 검색엔진</a></h3>
+        <h3><a href="11.html">11. 최후의 문법 : 속성 &amp; &lt;img&gt;</a></h3>
+        <h3><a href="12.html">12. 부모자식과 목록 -&lt;li&gt;&lt;/li&gt;, &lt;ul&gt;&lt;/ul&gt;, &lt;ol&gt;&lt;/ol&gt;</a></h3>
+        <h3><a href="13.html">13. 문서의 구조와 슈퍼스타들- &lt;head&gt;&lt;/head&gt; ... &lt;body&gt;&lt;/body&gt;</a></h3>
+        <h3><a href="14.html">14. html태그의 제왕 - &lt;a&gt;</a></h3>
+        <h3><a href="15.html">15. 웹사이트 완성 - index.html 1.html 2.html 3.html</a></h3>
+        <h3><a href="16.html">16. 원시웹 - 원시 웹</a></h3>
+        <h3><a href="17.html">17. 인터넷을 여는 열쇠 : 클라이언트와 서버</a></h3>
+        <h3><a href="18.html">18. 웹 호스팅 : github page</a></h3>
+        <h3><a href="19.html">19. 웹 서버 운영하기 - live server</a></h3>
+    </body>
+</html>
